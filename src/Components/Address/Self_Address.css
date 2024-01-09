@@ -1,0 +1,34 @@
+.nft_theme .address_card:before {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 1px;
+    top: 1px;
+    background: linear-gradient(45deg, transparent, var(--primary03), var(--primary06), var(--primary06), var(--primary03), transparent);
+    inset-inline-start: 10%;
+    box-shadow: 0 8px 17px 0px var(--primary-bg-color);
+}
+
+@media(min-width:1024px){
+.address_self{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.address_self1{
+    margin-left: 20%;
+    /* margin-top: 5%; */
+}
+.address_card{
+    height: 68px;
+}
+}
+
+@media(max-width:1024px){
+    .address_card{
+        height: 92px;
+    }
+
+    .cccd{
+        height: 112px;
+    }
+}

@@ -1,0 +1,246 @@
+.logo img {
+    height: 90px;
+}
+.foot-logo img {
+     height: 80px;
+}
+.inves-list ul li:first-child .inves-top {
+	position: absolute;
+	top: 90px;
+	left: 469px;
+	right: 0;
+}
+.inves-list ul li:nth-child(6) .inves-top {
+	position: absolute;
+	top: 56px;
+	left: 427px;
+	width: fit-content;
+}
+.inves-list ul li:nth-child(5) .inves-top {
+	position: absolute;
+	top: -4px;
+	left: 549px;
+	width: 100%;
+}
+.inves-list ul li:nth-child(2) .inves-top {
+	position: absolute;
+	top: 49px;
+	right: 481px;
+	width: 100%;
+}
+.inves-list ul li:nth-child(3) .inves-top {
+	position: absolute;
+	top: -24px;
+	right: 376px;
+	width: 100%;
+}
+.inves-list ul li:nth-child(4) .inves-top {
+	position: absolute;
+	top: -28px;
+	right: 390px;
+	width: 100%;
+}
+.inves-list ul li:nth-child(6) {
+	margin-top: 126px;
+}
+.index-t {
+	color: #000;
+	text-align: center;
+}
+.inves-top-index {
+    color:#000;
+}
+.inves-top-index h5 {
+	color: #ebea01;
+}
+.inves-top-index h2 {
+	color: #000;
+	font-weight: 800;
+	color: #ebea01;
+	font-size: 80px;
+}
+.inves-top-index span {
+	color: #fff;
+}
+.inves {
+    color:#000;
+}
+.inves h5 {
+	color: #fff;
+}
+.inves-amounts {
+	color: #fff;
+	font-family: Ubuntu, sans-serif !important;
+}
+.inves-amountr {
+    color:#000;
+}
+.inves-amountr span {
+    font-size: 30px;
+    color: #ebea01 !important;
+}
+.dd {
+	margin-bottom: 20px;
+}
+.cal {
+	color: #000;
+	text-align: center;
+}
+.cal a {
+	color: #ebea01;
+	background: #083333;
+	padding: 10px;
+	margin-top: 20px;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: normal;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+.referral li {
+	text-align: center;
+	display: inline-block;
+	position: unset;
+	padding-right: 2%;
+	width: 24%;
+	/* float: left; */
+}
+.referral-image {
+	border-radius: 12px;
+	border: 1px solid #fff;
+	overflow: hidden;
+	margin-bottom: 10px;
+	position: unset;
+	z-index: 1;
+}
+.referral li:nth-child(2n+1) h4 {
+	color: #00c194;
+	margin-bottom: 10px;
+}
+.referral li:nth-child(2n) span {
+	position: unset;
+	top: -181px;
+}
+.referral li:nth-child(2n+1) h4 {
+	color: #00c194;
+	margin-bottom: 10px;
+}
+.referral li:nth-child(2n) h4 {
+	color: #ebea01;
+}
+.referral li:nth-child(2n) span {
+	position: unset;
+	top: -181px;
+}
+.referral li:nth-child(2n)::before {
+	position: absolute;
+	background: url(../images/ref-line.png) no-repeat;
+	content: "";
+	width: 115px;
+	height: 204px;
+	top: -141px;
+	left: -116px;
+	display: none;
+}
+.referral li:nth-child(2n+1)::after {
+	position: absolute;
+	background: url(../images/ref-line1.png) no-repeat;
+	content: "";
+	width: 115px;
+	height: 204px;
+	top: 68px;
+	left: -115px;
+	display: none;
+}
+.referral-after::after {
+	position: absolute;
+	background: #779015;
+	content: "";
+	width: 100%;
+	height: 3px;
+	top: 110px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	display: none;
+}
+
+.withdraw-cont img {
+   /* filter: hue-rotate(140deg);
+      -webkit-filter: hue-rotate(140deg);*/
+      height: 25px;
+}
+.h2, h2 {
+	font-size: 25px;
+	color: #fff;
+	/* font-family: 'Oswald', sans-serif !important; */
+}
+.currency img {
+    filter: hue-rotate(140deg);
+      -webkit-filter: hue-rotate(140deg);
+      height: 25px;
+}
+.stat-below {
+	margin-top: 30px;
+}
+/* table tbody tr td {
+	text-align: left;
+}*/
+
+/*.title h2 {
+	margin-top: -10px;
+}*/
+@media only screen and (max-width: 767px) {
+    .referral li {
+	padding-right: 0%;
+	width: 100%;
+}
+}
+
+.img-fluid{
+	font-size: 80px !important;
+    color: #00be8b !important;
+}
+
+.Contact_main {
+    padding: 50px;
+    background: #072626;
+    border-radius: 20px;
+}
+
+.form-control {
+/*    height: 58px;*/
+    padding: 14px 0 14px 25px;
+    background: #fff;
+    border: 2px solid #059979;
+    font-family: Ubuntu, sans-serif !important;
+    font-family: 'Inter';
+    border-radius: 35px;
+    margin-bottom: 26px;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff!important;
+    background-clip: padding-box;
+    font-family: 'Inter';
+    border: none;
+    margin-bottom: 26px;
+}
+.btn-action {
+    padding: 17px 45px 15px 45px;
+    position: relative;
+    overflow: hidden;
+    font-weight: 700;
+    background: linear-gradient(294.72deg, #072626 9.05%, #003231 79.28%);
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+    color: #fff;
+    font-family: "Space Grotesk", Sans-serif !important;
+    display: flex;
+    align-items: center;
+/*    max-width: 160px;*/
+    font-size: 16px;
+}

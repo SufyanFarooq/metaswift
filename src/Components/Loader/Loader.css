@@ -1,0 +1,18 @@
+.Spinner_main{
+    background-color: rgb(0, 0, 0,0.8);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Inner_div_loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}

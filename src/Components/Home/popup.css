@@ -1,0 +1,9 @@
+.ant-modal-content{
+  padding: 0 !important;
+}
+
+.ant-modal-content button{
+  color: #ffffff !important;
+  font-size: 22px;
+
+}

@@ -1,0 +1,27 @@
+
+  .ant-pagination,.ant-pagination-item-ellipsis,.ant-pagination-item-link, .ant-pagination-item-link-icon{
+    color:#ffffff !important
+  }
+
+  .ant-pagination .ant-pagination-item-active {
+    color:#000 !important;
+}
+
+
+.custom-pagination {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap:10px !important;
+
+}
+
+.ant-pagination-options {
+  order: -1 !important; 
+}
+
+
+@media (max-width: 767px) {
+  .ant-pagination-options {
+    display: flex !important;
+  }
+}

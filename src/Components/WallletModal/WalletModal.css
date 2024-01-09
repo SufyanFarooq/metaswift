@@ -1,0 +1,23 @@
+
+
+    .responsive-modal {
+      width: 90%;
+    }
+  
+    .ant-btn{
+        font-size: 16px !important;
+        padding: 4px 15px !important;
+    }
+
+    .ant-modal-close-x{
+    color:#000 !important
+    }
+
+    .ant-modal-header,.ant-modal-footer{
+        padding: 5px 15px !important;
+    }
+
+
+    .ant-modal-body{
+          padding: 2px 15px !important;
+    }

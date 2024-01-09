@@ -1,0 +1,388 @@
+.deposit_heading {
+  padding: 50px;
+  color: white;
+}
+
+.deposite_coin_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-heading {
+  margin-bottom: 5%;
+}
+
+.left_side {
+  padding: 23px;
+  width: 70%;
+  margin-left: 50px;
+}
+
+.copy-button {
+  margin-left: 1%;
+  background-color: rgb(255, 255, 255);
+}
+
+.barcode_set_new {
+  margin-left: 250px;
+  margin-top: -32px;
+  width: 100%;
+}
+
+.left_side input {
+  min-width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-left: 70px;
+  margin-top: 14px;
+  margin-bottom: 50px;
+  background-color: #052612;
+  color: white;
+}
+
+.img-op-1 {
+  background-image: url("https://cdn.iconscout.com/icon/premium/png-256-thumb/tron-trx-7152138-5795294.png");
+}
+
+select#select-netywork {
+  width: 430px;
+  margin-left: 70px;
+  margin-bottom: 50px;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #052612;
+  color: grey;
+}
+
+select#select-netywork option {
+  padding: 121px;
+  line-height: 14px;
+}
+
+select#select-netywork option:hover {
+  background-color: greenyellow;
+}
+
+.right_side {
+  padding: 23px;
+  /* border: 1px solid rgb(37, 37, 37); */
+  width: 30%;
+  margin-right: 2%;
+  margin-top: -18%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right_side h2 {
+  margin-bottom: 50px;
+}
+
+.right_side p {
+  cursor: pointer;
+}
+
+.img2 {
+  width: 350px;
+}
+
+.right_side img {
+  margin-bottom: 50px;
+}
+
+.search_suggestion ul {
+  display: flex;
+  gap: 23px;
+  margin-left: 10%;
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+
+.search_suggestion ul li {
+  cursor: pointer;
+}
+
+.search_suggestion ul li img {
+  align-items: center;
+}
+
+.search_suggestion ul li img {
+  margin-right: 3px;
+  width: 18px;
+}
+
+.faq-para {
+  align-items: center;
+}
+
+.faq-para:hover {
+  color: rgb(159, 116, 37);
+}
+
+.faq-para i {
+  margin-top: -14px;
+}
+
+.faq-para p {
+  margin-left: 10px;
+}
+
+.withd-bottom {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 8%;
+  gap: 100px;
+}
+
+.bottom-left p {
+  margin: 0;
+}
+
+.bottom-right p {
+  margin: 0;
+}
+
+.p-yellow {
+  color: rgb(208, 138, 7);
+  font-size: 14px;
+}
+
+.p-yellow:hover {
+  color: rgb(208, 170, 100);
+  cursor: pointer;
+}
+
+.s-red {
+  color: #03ff7b;
+  font-weight: 500;
+  /* font-size: 15px; */
+}
+
+.searchbox {
+  width: 100%;
+}
+
+.left_side {}
+
+@media (max-width: 699px) {
+  .deposite_coin_inner {
+    flex-direction: column;
+  }
+
+  .top-heading {
+    margin-bottom: 23%;
+  }
+
+  .left_side {
+    padding: 5px;
+    margin-left: 0px;
+  }
+
+  .left_side input {
+    min-width: 100%;
+    margin-left: 0px;
+  }
+
+  #select-netywork {
+    width: 221px;
+    min-width: 100%;
+    margin-left: 0px;
+  }
+
+  .left_side h2 {
+    font-size: 18px;
+    margin-left: -38px;
+  }
+
+  .search_suggestion ul {
+    gap: 10px;
+    margin-left: 1%;
+    margin-bottom: 2%;
+  }
+
+  .img2 {
+    min-width: 300px;
+  }
+
+  .right_side h2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .withd-bottom {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  /* .bottom-left {
+      margin-left: -50px;
+    } */
+  .bottom-right {
+    margin-bottom: 50px;
+    margin-left: -20px;
+  }
+
+  .copy-button {
+    margin-top: -23%;
+    margin-left: 30%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .barcode_set_new {
+    margin-left: 20%;
+    margin-top: 5px;
+    margin-bottom: 32%;
+    /* width: 100%; */
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1020px) {
+  .deposite_coin_inner {
+    flex-direction: column;
+  }
+
+  .img2 {
+    min-width: 500px;
+  }
+
+  .right_side h2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-top: 194px;
+    font-size: 48px;
+  }
+
+  select#select-netywork {
+    width: 428px;
+  }
+
+  .top-heading {
+    margin-bottom: 10%;
+  }
+
+  .left_side input {
+    min-width: 86%;
+  }
+
+  .search_suggestion ul {
+    margin-left: 14%;
+    margin-bottom: 2%;
+  }
+
+  .copy-button {
+    margin-top: -10%;
+    margin-left: 45%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .barcode_set_new {
+    margin-left: 40%;
+    margin-top: 5px;
+    margin-bottom: 32%;
+    /* width: 100%; */
+  }
+}
+
+@media (min-width: 1021px) and (max-width: 1199px) {
+  .left_side input {
+    min-width: 71%;
+  }
+}
+
+
+.deposit_history {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+.deposit_history h1 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.deposite_coin_inner.mt4rem {
+  margin-top: 4rem;
+}
+
+.right_side.mt0set {
+  margin-top: 0;
+}
+
+.deposit_history.mb_2 {
+  margin-bottom: 2rem;
+}
+
+.buy_card {
+  background: transparent;
+  box-shadow: 0 0 1rem #ffffff;
+  border: 1px solid #052612;
+  border-radius: 25px;
+  min-height: 612px;
+}
+
+.input_btn {
+  border: 1px solid #fff !important;
+  background: #000000 ;
+  color: #fff !important;
+  padding: 10px 20px !important;
+  /* margin: 5px; */
+  cursor: pointer !important;
+  border-radius: 5px !important;
+  width: 113px;
+}
+
+.buy_token {
+  background: #0b9cf1;
+  box-shadow: 4px 2px 6px rgb(0 0 0 / 51%), inset -2px -2px 6px rgb(0 0 0 / 34%);
+  padding: 15px;
+  height: 120px;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+.buy_hea {
+  padding: 14px 15px !important;
+  border-bottom: 1px solid #ffffff;
+}
+
+.card_in {
+  padding: 2px 10px 2px 10px !important;
+  width: 69% !important;
+  border: unset;
+  border-radius: 9px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.input_buy {
+  display: flex;
+  justify-content: left;
+}
+
+@media (max-width:999px) {
+
+  .input_btn {
+    width: 68px;
+  }
+}
+
+@media (max-width:760px) {
+  .deposit_history {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .input_btn {
+    width: 68px;
+  }
+}

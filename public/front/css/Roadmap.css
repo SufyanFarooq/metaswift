@@ -1,0 +1,143 @@
+.light .dtt-roadmap {
+    width: 100%;
+    padding: 0px 0px;
+    color: #ffffff;
+    font-family: 'Anybody', cursive !important;
+}
+
+.light .dtt-roadmap .head {
+    width: 100%;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 800;
+}
+
+.light .dtt-roadmap .text {
+    width: 80%;
+    text-align: center;
+    font-size: 1em;
+    margin: 20px auto;
+}
+
+.light .dtt-roadmap .roadmap-items {
+    width: 70%;
+    padding: 20px 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.light .dtt-roadmap .roadmap-items li {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    list-style: none;
+}
+
+.light .dtt-roadmap .roadmap-items li:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #00c194;
+    left: 0;
+    top: 18px;
+}
+
+.light .dtt-roadmap .roadmap-items li:nth-child(4n+2):after {
+   content: '';
+    position: absolute;
+    width: 50px;
+    height: calc(100% + 17px);
+    background-color: green;
+    top: 11px;
+    background: url(../images/rightCircleLine.png) no-repeat center right;
+    background-size: auto 100%;
+    right: -50px;
+}
+
+.light .dtt-roadmap .roadmap-items li:nth-child(4n+3):after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: calc(100% + 12px);
+    background-color: green;
+    top: 13px;
+    background: url(../images/leftCircleLine.png) no-repeat center left;
+    background-size: auto 100%;
+    left: -50px;
+}
+
+.light .dtt-roadmap .roadmap-items li:last-child:after {
+    content: '';
+    display: none;
+}
+
+.light .dtt-roadmap .roadmap-items li:last-child:before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: #00c194;
+    left: 0;
+    top: 18px;
+}
+
+.light .dtt-roadmap .roadmap-items .dot {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(../images/dot.png) no-repeat center center;
+    background-size: 100%;
+
+}
+
+.light .dtt-roadmap .roadmap-items .year {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    color: #00c194;
+    display: block;
+    font-family: Ubuntu, sans-serif !important;
+    padding: 1.25rem 0 0.625rem 0;
+}
+
+.light .dtt-roadmap .text {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.light .dtt-subscribe {
+    margin: 0px auto;
+    padding: 80px 0px;
+    background-color: #3275bb;
+    color: #f7ffff;
+}
+
+@media only screen and (max-width: 600px) {
+    .light .dtt-roadmap .roadmap-items li:nth-child(4n+2):after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: calc(100% + 37px);
+    background-color: green;
+    top: 2px;
+    background: url(../images/rightCircleLine.png) no-repeat center right;
+    background-size: auto 100%;
+    right: -50px;
+}
+
+.light .dtt-roadmap .roadmap-items li:nth-child(4n+3):after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: calc(100% + 37px);
+    background-color: green;
+    top: 2px;
+    background: url(../images/leftCircleLine.png) no-repeat center left;
+    background-size: auto 100%;
+    left: -50px;
+}
+}
